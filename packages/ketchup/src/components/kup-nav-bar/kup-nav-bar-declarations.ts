@@ -17,3 +17,15 @@ export enum KupNavBarStyling {
     SHORT = 'short',
     STANDARD = 'standard',
 }
+
+export enum KupNavBarUserRoleLevel {
+    L00 = '00',
+    L01 = '01',
+    L02 = '02',
+    L03 = '03',
+}
+
+export enum KupNavBarMenuPosition {
+    LEFT = 'left',
+    RIGHT = 'right',
+}

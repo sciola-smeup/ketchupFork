@@ -118,6 +118,13 @@
     order: -1;
   }
 
+  &--align-center {
+    display: inline;
+    max-width: 33%;
+    justify-content: flex-start;
+    order: -1;
+  }
+
   &--align-end {
     justify-content: flex-end;
     order: 1;
