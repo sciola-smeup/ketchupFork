@@ -1,3 +1,4 @@
+import { KupNavBarUserRoleLevel } from '../../components/kup-nav-bar/kup-nav-bar-declarations';
 import {
     FCellInfo,
     FCellShapes,
@@ -117,6 +118,9 @@ export interface KupDataNode extends KupDataRow {
     isExpanded?: boolean;
     title?: string;
     data?: GenericObject;
+    side?: string; // FIXME: Added by SCIMAM
+    shape?: FCellShapes; // FIXME: Added by SCIMAM
+    roleLevel?: KupNavBarUserRoleLevel; // FIXME: Added by SCIMAM
 }
 /**
  * Interface related to cells operations.
